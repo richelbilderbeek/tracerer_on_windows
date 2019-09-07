@@ -1,12 +1,26 @@
 # R script to self-test tracerer
 
+print("=====================")
+print("Self-testing tracerer")
+print("=====================")
+
 library(tracerer)
 
-print("Self-testing tracerer")
+print("------------")
+print("Session info")
+print("------------")
 
 print(sessionInfo())
 
+print("--------------------------")
+print("tracerer's package version")
+print("--------------------------")
+
 print(packageVersion("tracerer"))
+
+print("---------------")
+print("Start self-test")
+print("---------------")
 
 estimates <- parse_beast_log(
   get_tracerer_path("beast2_example_output.log")
