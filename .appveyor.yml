@@ -28,7 +28,7 @@ build_script:
 
 test_script:
   - travis-tool.sh run_tests
-  - ./scripts/tracerer_self_check
+  - scripts/tracerer_self_check
 
 on_failure:
   - 7z a failure.zip *.Rcheck\*
