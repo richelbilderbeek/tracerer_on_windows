@@ -27,8 +27,7 @@ build_script:
   - travis-tool.sh install_github ropensci/tracerer
 
 test_script:
-  - travis-tool.sh run_tests
-  - ./scripts/tracerer_self_check
+  - Rscript scripts/tracerer_self_test.R
 
 on_failure:
   - 7z a failure.zip *.Rcheck\*
