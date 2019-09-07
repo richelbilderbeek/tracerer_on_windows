@@ -6,4 +6,6 @@ Branch   | Status
 
 ![](pics/tracerer_on_windows_logo_small.jpg)
 
-Verify the tracerer R package runs on Windows.
+Verify the [`tracerer`](https://github.com/ropensci/tracerer) R package runs on Windows.
+
+
