@@ -62,3 +62,6 @@ trees <- parse_beast_trees(
   get_tracerer_path("beast2_example_output.trees")
 )
 
+print("============================")
+print("Self-testing tracerer passed")
+print("============================")
