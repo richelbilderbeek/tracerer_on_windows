@@ -13,7 +13,7 @@ Description: 'tracerer' (<https://github.com/ropensci/tracerer>) is an
   builds under Windows.
 License: GPL-3
 LazyData: TRUE
-Imports:
+Imports: tracerer
 Suggests:
 VignetteBuilder: knitr
 RoxygenNote: 6.1.1
