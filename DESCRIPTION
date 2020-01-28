@@ -6,7 +6,7 @@ Authors@R: c(
   person("Richèl J.C.", "Bilderbeek", email = "richel@richelbilderbeek.nl", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1107-7049")))
 Maintainer: Richèl J.C. Bilderbeek <richel@richelbilderbeek.nl>
 Description: 'tracerer' (<https://github.com/ropensci/tracerer>) is an
-  R package to call 'BEAST2' (<http://www.beast2.org>) from within R.
+  R package to call 'BEAST2' (<https://www.beast2.org>) from within R.
   At its original repository, owned by 'rOpenSci', 'tracerer' is tested 
   under Linux and Mac, but not Windows, as 'rOpenSci' does not have 
   an Appveyor account. This repository allows to verify if this package 
