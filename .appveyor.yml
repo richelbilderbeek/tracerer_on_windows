@@ -23,8 +23,6 @@ environment:
 
 build_script:
   - travis-tool.sh install_deps
-  - # travis-tool.sh install_github ropensci/beautier
-  - travis-tool.sh install_github ropensci/tracerer
 
 test_script:
   - Rscript scripts/tracerer_self_test.R
