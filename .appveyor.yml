@@ -23,6 +23,7 @@ environment:
 
 build_script:
   - travis-tool.sh install_github r-lib/testthat
+  - travis-tool.sh install_github r-lib/knitr
   - travis-tool.sh install_github ropensci/tracerer
   - # travis-tool.sh install_deps
 
