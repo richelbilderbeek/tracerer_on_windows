@@ -22,7 +22,9 @@ environment:
     USE_RTOOLS: true
 
 build_script:
-  - travis-tool.sh install_deps
+  - travis-tool.sh install_github r-lib/testthat
+  - travis-tool.sh install_github ropensci/tracerer
+  - # travis-tool.sh install_deps
 
 test_script:
   - Rscript scripts/tracerer_self_test.R
