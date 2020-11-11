@@ -1,26 +1,26 @@
 # R script to self-test tracerer
 
-print("=====================")
-print("Self-testing tracerer")
-print("=====================")
+message("=====================")
+message("Self-testing tracerer")
+message("=====================")
 
 library(tracerer)
 
-print("------------")
-print("Session info")
-print("------------")
+message("------------")
+message("Session info")
+message("------------")
 
-print(sessionInfo())
+message(paste0(devtools::session_info(), collapse = "\n"))
 
-print("--------------------------")
-print("tracerer's package version")
-print("--------------------------")
+message("--------------------------")
+message("tracerer's package version")
+message("--------------------------")
 
-print(packageVersion("tracerer"))
+message(packageVersion("tracerer"))
 
-print("---------------")
-print("Start self-test")
-print("---------------")
+message("---------------")
+message("Start self-test")
+message("---------------")
 
 estimates <- parse_beast_log(
   get_tracerer_path("beast2_example_output.log")
@@ -62,6 +62,6 @@ trees <- parse_beast_trees(
   get_tracerer_path("beast2_example_output.trees")
 )
 
-print("============================")
-print("Self-testing tracerer passed")
-print("============================")
+message("============================")
+message("Self-testing tracerer passed")
+message("============================")
