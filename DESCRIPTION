@@ -14,6 +14,7 @@ Description: 'tracerer' (<https://github.com/ropensci/tracerer>) is an
 License: GPL-3
 LazyData: TRUE
 Imports: 
+    ape,
     devtools,
     ggplot2,
     testthat,
