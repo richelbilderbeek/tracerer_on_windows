@@ -15,6 +15,7 @@ License: GPL-3
 LazyData: TRUE
 Imports: 
     devtools,
+    ggplot2,
     testthat,
     tracerer
 Suggests:
