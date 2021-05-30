@@ -12,7 +12,6 @@ Description: 'tracerer' (<https://github.com/ropensci/tracerer>) is an
   an Appveyor account. This repository allows to verify if this package 
   builds under Windows.
 License: GPL-3
-LazyData: TRUE
 Imports: 
     ape,
     devtools,
